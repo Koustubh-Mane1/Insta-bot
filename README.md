@@ -1,7 +1,7 @@
 # InstaBot
 ### Installing Python:
 
-1. *Download Python:* Visit the official Python website at https://www.python.org/downloads/ and download the latest version of Python for your operating system (Windows, macOS, or Linux).
+1. *Download Python:* Visit the official Python website at https://www.python.org/downloads/ and download the latest version of Python for your operating system (Windows).
 
 2. *Run the Installer:* Run the downloaded installer. Make sure to check the box that says "Add Python X.Y to PATH" during the installation process (replace X.Y with your Python version). This option ensures that Python is added to your system's PATH environment variable, making it easier to run Python from the command line.
 
@@ -30,3 +30,14 @@
    
 
    You should see the WebDriver version displayed in the output.
+### Opening the Folder
+1. Download VS Code(preferrable) as a Code Editor. Download this repository as a zip file , then extract it and Open this folder in the code editor.
+### Functions
+
+1. MassDM -> This file is responsible for sending Dm's to all the usernames in the User_List Excel file. To run this code type python MassDM.py in the terminal, All the users to which the message has been sent will be moved to the Blacklist Excel file so that there should be not repeat messages to the same user.
+2. Like_Recent -> This file is responsible for liking the recent page of all the usernames in the User_List Excel file. To run this code type python Like_Recent.py in the terminal.
+3. RecentPostSend -> This file is responsible for sending a DM with the recent post of the sender to all the usernames in the User_List Excel file. To run this code type python RecentPostSend.py in the terminal.
+4. Unfollow -> This file is responsible for Unfollowing  all the usernames in the User_List Excel file. To run this code type python Unfollow.py in the terminal.
+
+   
+   
